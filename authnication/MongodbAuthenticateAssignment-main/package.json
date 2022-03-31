@@ -1,0 +1,29 @@
+{
+  "name": "mongodboauthassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pooja41180/MongodbOauthAssignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pooja41180/MongodbOauthAssignment/issues"
+  },
+  "homepage": "https://github.com/pooja41180/MongodbOauthAssignment#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "env": "^0.0.2",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.7"
+  }
+}
